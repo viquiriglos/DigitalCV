@@ -7,10 +7,18 @@
 }
 
 button {
-    background-color: #1c39bb;
+    background-color: #1c39bb !important; 
+    border-color: rgb(194, 194, 106) !important;
+    border-width: 5px;
+    border-style: solid;
     padding: 20px 20px !important;
+    color: white;
 }
 
+button:hover {
+    border-color: rgb(219, 123, 12) !important;
+}
+    
 a {
     text-decoration: none;
     color: white !important;
