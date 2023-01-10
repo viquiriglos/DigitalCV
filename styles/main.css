@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{font-family: 'Quicksand';}
+
+a {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 500;
+}
+
+a:hover {
+    color: rgb(236, 151, 39) !important;
+    text-decoration: none;
+}
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+img {
+    border-color: rgb(217,214,114);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+}
