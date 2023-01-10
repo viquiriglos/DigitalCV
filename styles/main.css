@@ -18,6 +18,10 @@ button {
 button:hover {
     border-color: rgb(219, 123, 12) !important;
 }
+
+hr {
+    border-color: rgb(194, 194, 106) !important;
+}
     
 a {
     text-decoration: none;
