@@ -1,6 +1,10 @@
 from pathlib import Path
 import streamlit as st
 from PIL import Image
+from streamlit.web.cli import main
+from streamlit.delta_generator import DeltaGenerator as _DeltaGenerator
+from streamlit.elements.arrow_altair import ArrowAltairMixin
+from altair.vegalite.v4.api import Chart
 
 #---- PATH SETTINGS---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
